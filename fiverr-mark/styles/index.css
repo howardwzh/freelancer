@@ -1,4 +1,7 @@
 /* global */
+body {
+  -webkit-overflow-scrolling: touch;
+}
 p {
   margin: 0;
 }
@@ -497,5 +500,20 @@ p {
 @media (max-width: 700px) {
   .brands-container {
       display: none;
+  }
+  .fixed-preview {
+    padding: 10px 30px 10px;
+  }
+  .fixed-preview-content h2 {
+    font-size: 110%;
+    line-height: 40px;
+    float: none;
+    margin-bottom: 6px;
+  }
+  .fixed-preview-content .btn-primary {
+    margin-left: 10px;
+    font-size: 10px;
+    float: none;
+    padding: 8px 20px;
   }
 }
