@@ -18,6 +18,7 @@ function loaded () {
   SwitchBanner = document.getElementById('SwitchBanner');
   // handle scroll event
   window.onscroll = handleScroll;
+  handleScroll()
 }
 
 function handleScroll () {
