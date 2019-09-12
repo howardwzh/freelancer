@@ -239,34 +239,8 @@ p {
 .switch-banner.fixed-banner-C::before {
   background-image: url('../images/gettyimages-988469836-2205x1360.jpeg');
 }
-/* scene-5 */
-.scene-5 {
-  position: relative;
-  z-index: 1000;
-  background: url('../images/demo-strap-bg.jpg') no-repeat center center;
-  background-size: cover;
-  padding: 10% 80px 12%;
-}
-.scene-5::after {
-  content: ' ';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url('../images/demo-strap-bg.jpg') no-repeat center center;
-  background-size: cover;
-}
 .row {
   margin: 0;
-}
-.scene-5-content {
-  font-family: "PT Serif",serif;
-  color: #fff;
-  position: relative;
-  z-index: 20;
-  text-align: center;
-  font-size: 18px;
 }
 .shorthand-logo {
   margin: 0 auto;
@@ -275,19 +249,6 @@ p {
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxMDdweCIgaGVpZ2h0PSIxMDdweCIgdmlld0JveD0iMCAwIDEwNyAxMDciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEwNyAxMDciIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjRjFGMkYyIiBkPSJNNTMuNSwwQzIzLjk1MiwwLDAsMjMuOTUzLDAsNTMuNUMwLDgzLjA0NiwyMy45NTIsMTA3LDUzLjUsMTA3YzI5LjU0NywwLDUzLjUtMjMuOTUzLDUzLjUtNTMuNUMxMDcsMjMuOTUzLDgzLjA0NywwLDUzLjUsMHogTTYxLjk4NSw3OC4wODdjLTMuNDI2LDAuNzI2LTguNTY1LDAuODY1LTEyLjIyNCwwLjEyOWMtMi42OTktMC41NDItNS4wNS0xLjUyNy03LjE1My0yLjg1OWMtMC42Mi0wLjM5My0xLjU1Ni0wLjk3OS0yLjQwNS0wLjkxYy0xLjUwNSwwLjExOS0yLjM3LDIuMTgyLTMuMDU3LDMuMjVjLTEuNDMxLDAtMi44NjEsMC00LjI5MSwwYzAtNS45MzgsMC0xMS44NzcsMC0xNy44MTZjMS4zODktMC4xNzEsMi44MTktMC4zMDEsNC4yOTEtMC4zOUMzOCw2Ny4wNSw0Mi45NjgsNzEuNDE3LDQ5Ljg5MSw3Mi44MmMzLjc0MSwwLjc1OSw4LjQzNCwwLjU4LDExLjQ0NC0wLjcxNWMyLjk4OS0xLjI4NSw1LjA5NS00LjMyNCw0LjY4Mi04LjMyMmMtMC4xNzUtMS42OS0xLjUyNS0yLjkwNi0yLjc5Ni0zLjU3NmMtMi4xMTUtMS4xMTUtNC44MjItMS41Ni03LjU0My0yLjAxN2MtMTAuOTQxLTEuODM2LTIyLjEwNC0zLjE2My0yMi40OTctMTUuNzM1Yy0wLjI5LTkuMjI3LDYuMTg3LTEzLjcwNSwxNC43Ni0xNC4xMDljNS41NjItMC4yNjMsOS42OTQsMC41MjEsMTMuMzMsMi4yNzVjMS4wODksMC41MjYsMi40MzgsMS41ODQsMy43MDYsMS40OTZjMS41ODktMC4xMSwyLjMzMy0xLjc0OCwzLjMxNi0yLjczMWMxLjE0OCwwLDIuMjk3LDAsMy40NDUsMGMwLDUuNjM1LDAsMTEuMjcxLDAsMTYuOTA2Yy0xLjQ2NSwwLjE4Mi0yLjkyMiwwLjM3My00LjM1NSwwLjU4NWMtMC44NzUtNi4xOTgtMy43NjQtMTAuMTg1LTkuMTY5LTEyLjA5NGMtNS4zNDEtMS44ODctMTQuNzE4LTEuNTI3LTE2LjkwNiwyLjkyNmMtMC43MjYsMS40NzYtMC43NzMsMy44MzgtMC4wNjQsNS4yMDJjMS4zNTUsMi42MDksNS42MzIsMy43NTEsOC45NzQsNC40MjFjMy45NjUsMC43OTUsNy42NjEsMS4yNzUsMTEuMTg0LDIuMjExYzYuOTE0LDEuODM3LDEyLjc0NCw1LjA4NCwxMi43NDQsMTMuOThDNzQuMTQ1LDcyLjIwNSw2OS4xNjYsNzYuNTY2LDYxLjk4NSw3OC4wODd6Ii8+PC9zdmc+) center no-repeat;
   background-size: 100% auto;
   text-indent: -9999px;
-}
-.scene-5-content h2 {
-  font-size: 300%;
-  color: #fff;
-  font-family: adobe-garamond-pro,'PT Serif',Georgia,serif;
-  line-height: 1;
-  margin: 15px auto 10px;
-  font-weight: 400;
-}
-.scene-5-content p {
-  line-height: 1.4;
-  font-family: proxima-nova,'Lato',Helvetica,sans-serif;
-  padding: 10px 0 40px;
 }
 .btn-primary {
   padding: 14px 40px;
@@ -308,88 +269,6 @@ p {
   background-color: #1bbc9b;
   color: #fff;
   text-decoration: none;
-}
-.brands-container {
-  text-align: center;
-  padding: 15px;
-  color: #fff;
-  opacity: .55;
-  margin-top: 20px;
-}
-.brands-container h5 {
-  text-transform: uppercase;
-  color: #fff;
-  margin: 0 auto 4px;
-  font-family: proxima-nova,'Lato',Helvetica,sans-serif;
-}
-.brands-container .brands {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-line-pack: start;
-  align-content: flex-start;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  width: 480px;
-  margin: 0 auto;
-  height: 50px;
-  overflow: hidden;
-  padding: 0;
-}
-.brands-container .brands .brand {
-  display: inline-block;
-  vertical-align: top;
-  width: 32%;
-  line-height: 60px;
-  height: 60px;
-  -webkit-animation: brand-animation 10s infinite ease;
-  animation: brand-animation 10s infinite ease;
-  background: url('../images/logos-title.png') center -48px no-repeat;
-  background-size: 200px auto;
-  font-size: 0;
-}
-.brands-container .brands .brand.hearst {
-  background-position: center -148px;
-}
-.brands-container .brands .brand.guardian {
-  background-position: center -98px;
-}
-.brands-container .brands .brand.tele {
-  background-position: center -299px;
-}
-.brands-container .brands .brand.stc {
-  background-position: center -400px;
-}
-.brands-container .brands .brand.abc {
-  background-position: center -200px;
-}
-.brands-container .brands .brand.trinity {
-  background-position: center -250px;
-}
-.brands-container .brands .brand.fairfax {
-  background-position: center -348px;
-}
-.brands-container .brands .brand.haymarket {
-  background-position: center -448px;
-}
-@keyframes brand-animation{
-  0%,26%,96%{opacity:1;-webkit-transform:translate(0,0);transform:translate(0,0)}
-  30%,91%{opacity:0;-webkit-transform:translate(0,0);transform:translate(0,0)}
-  31%,60%{opacity:0;-webkit-transform:translate(0,-60px);transform:translate(0,-60px)}
-  35%,56%{opacity:1;-webkit-transform:translate(0,-60px);transform:translate(0,-60px)}
-  61%,90%{opacity:0;-webkit-transform:translate(0,-120px);transform:translate(0,-120px)}
-  65%,86%{opacity:1;-webkit-transform:translate(0,-120px);transform:translate(0,-120px)}
 }
 /* fixed-preview */
 .fixed-preview {
@@ -467,20 +346,6 @@ p {
     background: rgba(0,0,0,.7);
     margin-top: 50vh;
     margin-bottom: 50vh;
-  }
-  .scene-5-content {
-    font-size: 14px;
-  }
-  .scene-5-content h2 {
-    font-size: 180%;
-  }
-  .scene-5 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .btn-primary {
-    font-size: 12px;
-    padding: 10px 20px;
   }
   .fixed-preview {
     padding: 30px 30px 0;
