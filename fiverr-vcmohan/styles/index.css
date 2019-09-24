@@ -43,6 +43,7 @@
 .scene-image-wrap {
   position: relative;
   width: 50%;
+  max-width: 420px;
   margin: 0 auto;
 }
 .scene-image-wrap h3 {
